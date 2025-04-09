@@ -10,9 +10,10 @@ import {
   Alert,
 } from 'react-native';
 import axios from 'axios';
+import { OPENWEATHER_API_KEY } from '@env';
 
-// ✅ Replace with your OpenWeatherMap API key
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = OPENWEATHER_API_KEY;
+
 
 // ✅ Define the structure of the weather data
 interface WeatherData {
